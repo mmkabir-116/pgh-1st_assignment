@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: aqua;
+}
+
+.section-1 {
+  display: flex;
+  margin: 1rem;
+  padding: 3rem 10rem;
+  width: 100%;
+}
+
+#guy-img img {
+  width: 65%;
+}
+
+.width-control {
+  padding-left: 6rem;
+}
+.button {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-image: linear-gradient(rgb(105, 230, 105), aquamarine);
+  border-radius: 7px;
+}
+.s1-div1 {
+  width: 100%;
+  padding-top: 8rem;
+}
+.blue-border {
+  border-left: 5px solid;
+  border-image: linear-gradient(steelblue, aquamarine);
+  border-image-slice: 8;
+}
+h1 {
+  font-size: 40px;
+}
