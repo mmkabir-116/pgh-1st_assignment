@@ -15,6 +15,10 @@ span {
   width: 100%;
 }
 
+#special-font {
+  font-family: "Dancing Script", cursive;
+}
+
 #guy-img img {
   width: 65%;
 }
