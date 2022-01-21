@@ -10,8 +10,8 @@ span {
 
 .section-1 {
   display: flex;
-  margin: 1rem;
-  padding: 3rem 10rem;
+  margin-left: 150px;
+  margin-right: 150px;
   width: 100%;
 }
 
@@ -24,7 +24,7 @@ span {
 }
 
 .width-control {
-  padding-left: 6rem;
+  padding-left: 96px;
 }
 .button {
   text-decoration: none;
@@ -34,7 +34,7 @@ span {
 }
 .s1-div1 {
   width: 100%;
-  padding-top: 8rem;
+  padding-top: 128px;
 }
 .blue-border {
   border-left: 5px solid;
@@ -42,5 +42,76 @@ span {
   border-image-slice: 8;
 }
 h1 {
-  font-size: 40px;
+  font-size: 50px;
+}
+
+.section-2 {
+  margin-top: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#s2-text {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.s2-img {
+  width: 30%;
+}
+
+.card-1 {
+  background-color: rgb(240, 240, 177);
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px 20px;
+}
+.card-2 {
+  background-color: rgb(236, 115, 115);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px 20px;
+}
+.card-3 {
+  background-color: rgb(156, 225, 228);
+  margin-right: 10px;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px 20px;
+}
+
+.section-3 div img {
+  width: 70%;
+}
+
+.section-3 {
+  display: flex;
+  margin-top: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.s3-img {
+  background-image: url(img/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: left;
+}
+
+#s4-img {
+  padding-left: 25%;
+}
+
+.s4-img {
+  background-image: url(img/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: right;
 }
