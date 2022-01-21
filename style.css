@@ -115,3 +115,16 @@ h1 {
   background-size: 300px;
   background-position: right;
 }
+footer {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+footer h1 {
+  text-align: center;
+  color: aliceblue;
+}
+footer p {
+  text-align: center;
+  color: aliceblue;
+}
