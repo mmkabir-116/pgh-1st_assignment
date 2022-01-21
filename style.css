@@ -66,14 +66,14 @@ h1 {
 }
 
 .card-1 {
-  background-color: rgb(240, 240, 177);
+  background-color: rgb(250, 250, 201);
   margin-left: 10px;
   border-radius: 10px;
   width: 100%;
   padding: 5px 20px;
 }
 .card-2 {
-  background-color: rgb(236, 115, 115);
+  background-color: rgb(247, 182, 182);
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 10px;
@@ -81,7 +81,7 @@ h1 {
   padding: 5px 20px;
 }
 .card-3 {
-  background-color: rgb(156, 225, 228);
+  background-color: rgb(196, 244, 247);
   margin-right: 10px;
   border-radius: 10px;
   width: 100%;
@@ -115,14 +115,46 @@ h1 {
   background-size: 300px;
   background-position: right;
 }
+
+#s5-h1 {
+  text-align: center;
+}
+.section-5 {
+  margin-top: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#s5-title {
+  text-align: center;
+}
+
+#s5-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.s5-text {
+  width: 100%;
+  padding-bottom: 60px;
+  padding-left: 60px;
+}
+
+.s5-alignment {
+  display: flex;
+}
+
 footer {
   background-color: black;
-  margin: 0;
-  padding: 0;
+  border-top: 20px black solid;
+  border-bottom: 20px black solid;
+  line-height: 15px;
+  margin-top: 200px;
 }
 footer h1 {
   text-align: center;
   color: aliceblue;
+  font-family: "Dancing Script", cursive;
 }
 footer p {
   text-align: center;
